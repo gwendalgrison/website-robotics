@@ -6,50 +6,52 @@ export const en = {
         contact: 'Contact',
     },
     hero: {
-        title: 'Telecom Robotics',
-        subtitle: 'Building the future of robotics at Telecom Paris, one innovation at a time.',
+        title: 'Télécom Robotics',
+        subtitle: 'The robotics association of Télécom Paris',
         cta: {
             projects: 'Our Projects',
             join: 'Join Us',
         },
     },
     projects: {
-        title: 'Latest Projects',
+        title: 'Our Projects',
+        description: 'One of the main objectives of the association is to represent Télécom Paris at the French Robotics Cup. We also work on local projects such as an arcade machine and a robotics competition within the school. Finally, we organize events to let people experience the joy of robotics - Repair Cafés, conferences, and introductory courses in electronic or mechanical design.',
+        features: 'Features:'
     },
     join: {
         title: 'Why Join Telecom Robotics?',
         subtitle: 'Be part of an innovative community pushing the boundaries of robotics',
     },
     about: {
-        title: 'About Telecom Robotics',
-        intro: 'Founded at Telecom Paris, we are a student-led robotics association passionate about innovation and technology.',
+        title: 'About Us',
+        intro: 'Made up of engineering students from various backgrounds and experience levels, Telecom Robotics is Telecom Paris school\'s association dedicated to promoting robotics and sharing knowledge in this field, while having fun. From image processing to algorithmic optimization, embedded software, electronics, and many other fields, there\'s something for everyone!',
         mission: {
-            title: 'Our Mission',
-            description: 'To foster innovation in robotics while providing hands-on experience to students passionate about technology and engineering.'
+            title: 'Our Projects',
+            description: 'One of the main objectives of the association is to represent Telecom Paris at the French Robotics Cup. We also work on local projects such as an arcade machine and a robotics competition within the school. Finally, we organize events to let people experience the joy of robotics - Repair Cafés, conferences, and introductory courses in electronic or mechanical design.'
         },
         values: {
-            title: 'Our Values',
+            title: 'French Robotics Cup',
             items: [
                 {
-                    title: 'Innovation',
-                    description: "Pushing the boundaries of what's possible in robotics",
-                    icon: '💡'
+                    title: 'The Event',
+                    description: 'It\'s a major robotics event that brings together schools, young enthusiasts, and companies around a single competition.',
+                    icon: '🏆'
                 },
                 {
-                    title: 'Learning',
-                    description: 'Continuous learning and knowledge sharing among members',
-                    icon: '📚'
+                    title: 'The Challenge',
+                    description: 'Participating teams prepare by building fully autonomous robots, then have them compete in technical duels to score points. Each year, the rules change to bring diversity and force teams to constantly renew their robots and surpass themselves.',
+                    icon: '🤖'
                 },
                 {
-                    title: 'Collaboration',
-                    description: 'Working together to achieve ambitious goals',
-                    icon: '🤝'
+                    title: '2023 Achievement',
+                    description: 'We participated in the 2023 French Robotics Cup for the first time since 2019, with a brand new robot entirely designed and built by us. Despite considerable delay in our robot\'s design, we were approved and competed in a match, scoring 25 points - not bad for a first try!',
+                    icon: '🌟'
                 }
             ]
         },
         team: {
-            title: 'Our Team',
-            description: 'A diverse group of students and engineers working together to advance robotics technology.'
+            title: 'Contact Us',
+            description: 'Get in touch with us at telecomrobotic@gmail.com or visit us at 19 Place Marguerite Perret, 91 120 Palaiseau'
         }
     },
     events: {
@@ -83,47 +85,51 @@ export const en = {
     },
     featuredProjects: [
         {
-            title: "Autonomous Robot",
-            description: "A self-navigating robot using advanced AI algorithms",
-            image: "/images/robot1.jpg",
+            title: "French Robotics Cup",
+            description: "A major robotics event bringing together schools, enthusiasts, and companies",
+            image: "/images/cup.jpg",
             details: {
-                overview: "Our autonomous robot project combines cutting-edge AI with robust hardware to create a self-navigating platform.",
+                overview: "The French Robotics Cup is a major competition where teams build fully autonomous robots to compete in technical duels.",
                 features: [
-                    "Real-time obstacle detection and avoidance",
-                    "Machine learning-based path planning",
-                    "Computer vision for environment mapping",
-                    "Modular design for easy upgrades"
+                    "Autonomous robot construction",
+                    "National inter-school competition",
+                    "Annual rule changes",
+                    "2023 comeback with 25 points scored"
                 ],
-                status: "In Development",
-                team: "Led by the Robotics AI Team"
+                status: "Flagship Project",
+                team: "Main Team"
             }
         },
         {
-            title: "Drone Project",
-            description: "Custom-built drone for aerial surveillance and mapping",
-            image: "/images/drone.jpg",
+            title: "ARDUI101",
+            description: "Electronics introduction training for first-year students",
+            image: "/images/ardui101_2.jpg",
             details: {
-                overview: "Our custom-built drone is designed for aerial surveillance and mapping missions.",
+                overview: "A start-of-year event dedicated to first-year students to discover electronics and Arduino programming",
                 features: [
-                    "High altitude flight capabilities",
-                    "Computer vision for environment mapping",
-                    "Modular design for easy upgrades"
+                    "Soldering training",
+                    "Arduino introduction",
+                    "Personal project creation",
+                    "Personalized guidance"
                 ],
-                status: "In Development",
-                team: "Led by the Robotics AI Team"
+                status: "Annual Event",
+                team: "Training Team"
             }
         },
         {
-            title: "Robot Arm",
-            description: "Precision robotic arm for industrial applications",
-            image: "/images/arm.jpg",
+            title: "Repair Café",
+            description: "Collaborative repair workshop open to all students",
+            image: "/images/repair.jpg",
             details: {
-                overview: "Our precision robotic arm is designed for industrial applications.",
+                overview: "A space where students can come to repair their devices with the help of experienced members",
                 features: [
-                    "Millimeter precision positioning",
-                    "10 kg payload",
-                    "Complex part manipulation"
+                    "Electronic device repair",
+                    "Knowledge sharing",
+                    "Fighting obsolescence",
+                    "Community support"
                 ],
+                status: "Regular Events",
+                team: "Events Team"
             }
         }
     ],

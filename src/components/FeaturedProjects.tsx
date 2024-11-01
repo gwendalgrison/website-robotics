@@ -85,10 +85,10 @@ export default function FeaturedProjects({ dict, projects }: { dict: any, projec
                         <p className="text-lg text-foreground/90">{selectedProject.details.overview}</p>
 
                         <div className="bg-card/50 rounded-lg p-6 border border-primary/20">
-                            <h3 className="font-semibold text-primary mb-4">Features:</h3>
+                            <h3 className="font-semibold text-primary mb-4">{dict.projects.features}</h3>
                             <ul className="grid gap-3">
                                 {selectedProject.details.features.map((feature: string, index: number) => (
-                                    <li key={index} className="flex items-center gap-2 text-foreground/80">
+                                    <li key={index} className="flex gap-2 text-foreground/80">
                                         <span className="text-primary">•</span>
                                         {feature}
                                     </li>

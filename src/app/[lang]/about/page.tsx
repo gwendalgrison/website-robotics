@@ -31,7 +31,7 @@ export default async function About({
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
                         <div>
-                            <h2 className="text-3xl font-bold text-foreground mb-6">
+                            <h2 className="text-3xl font-bold text-primary mb-6">
                                 {dict.about.mission.title}
                             </h2>
                             <p className="text-xl text-foreground/80">
@@ -55,7 +55,7 @@ export default async function About({
                 <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_100%_200px,var(--primary)/5,transparent)]" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_0%_-100px,var(--accent)/5,transparent)]" />
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-                    <h2 className="text-3xl font-bold text-foreground mb-12">
+                    <h2 className="text-3xl font-bold text-primary mb-12">
                         {dict.about.values.title}
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

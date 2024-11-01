@@ -6,50 +6,52 @@ export const fr = {
         contact: 'Contact',
     },
     hero: {
-        title: 'Telecom Robotics',
-        subtitle: 'Construire l\'avenir de la robotique à Telecom Paris, une innovation à la fois.',
+        title: 'Télécom Robotics',
+        subtitle: 'L\'association de robotique de Télécom Paris',
         cta: {
             projects: 'Nos Projets',
             join: 'Nous Rejoindre',
         },
     },
     projects: {
-        title: 'Derniers Projets',
+        title: 'Nos Projets',
+        description: 'L\'un des objectifs principaux de l\'association est de représenter Télécom Paris à la Coupe de France de Robotique. Nous travaillons également sur des projets locaux telle qu\'une borne d\'arcade et une compétition de robotique au sein de l\'école. Enfin, nous organisons des évènements permettant de goûter au plaisir de la robotique - des Repair Café, des conférences et cours d\'introduction à la conception électronique ou mécanique.',
+        features: 'Points clés :'
     },
     join: {
         title: 'Pourquoi Rejoindre Telecom Robotics ?',
         subtitle: 'Faites partie d\'une communauté innovante repoussant les limites de la robotique',
     },
     about: {
-        title: 'À Propos de Telecom Robotics',
-        intro: 'Fondée à Telecom Paris, nous sommes une association étudiante de robotique passionnée par l\'innovation et la technologie.',
+        title: 'L\'asso',
+        intro: 'Formée d\'étudiantes et étudiants ingénieurs de diverses niveaux d\'expériences et diverses filières, Télécom Robotics est l\'association de l\'école Télécom Paris dont la raison d\'être est de promouvoir la robotique et de partager les connaissances liées à ce domaine, tout en s\'amusant. Entre le traitement d\'image, l\'optimisation algorithmique, le logiciel embarqué, l\'électronique et bien d\'autres domaines il y\'en a pour tous les goûts !',
         mission: {
-            title: 'Notre Mission',
-            description: 'Favoriser l\'innovation en robotique tout en offrant une expérience pratique aux étudiants passionnés par la technologie et l\'ingénierie.'
+            title: 'Nos Projets',
+            description: 'L\'un des objectifs principaux de l\'association est de représenter Télécom Paris à la Coupe de France de Robotique. Nous travaillons également sur des projets locaux telle qu\'une borne d\'arcade et une compétition de robotique au sein de l\'école. Enfin, nous organisons des évènements permettant de goûter au plaisir de la robotique - des Repair Café, des conférences et cours d\'introduction à la conception électronique ou mécanique.'
         },
         values: {
-            title: 'Nos Valeurs',
+            title: 'La coupe de France de Robotique',
             items: [
                 {
-                    title: 'Innovation',
-                    description: 'Repousser les limites du possible en robotique',
-                    icon: '💡'
+                    title: 'L\'événement',
+                    description: 'C\'est un évènement majeur de la robotique qui réunit des écoles, des jeunes passionnés et des entreprises autour d\'une même compétition.',
+                    icon: '🏆'
                 },
                 {
-                    title: 'Apprentissage',
-                    description: 'Apprentissage continu et partage des connaissances entre les membres',
-                    icon: '📚'
+                    title: 'Le Défi',
+                    description: 'Les différentes équipes participantes se préparent en construisant des robots entièrement autonomes, puis les font s\'affronter dans des duels techniques pour gagner des points. A chaque édition, les règles changent pour apporter de la diversité et forcer les équipes à toujours renouveler leurs robots et se dépasser.',
+                    icon: '🤖'
                 },
                 {
-                    title: 'Collaboration',
-                    description: 'Travailler ensemble pour atteindre des objectifs ambitieux',
-                    icon: '🤝'
+                    title: 'Réalisation 2023',
+                    description: 'Nous avons pu participer en 2023 à la Coupe de Robotique de France pour la première fois depuis 2019, avec un robot neuf entièrement conçu et construit par nos soins. Malgré un retard considérable dans la conception de notre robot, nous avons pu être homologués et disputer un match, au cours duquel nous avons gagné 25 points. Pas mal pour une première !',
+                    icon: '🌟'
                 }
             ]
         },
         team: {
-            title: 'Notre Équipe',
-            description: 'Un groupe diversifié d\'étudiants et d\'ingénieurs travaillant ensemble pour faire progresser la technologie robotique.'
+            title: 'Contactez-nous',
+            description: 'Contactez-nous à telecomrobotic@gmail.com ou visitez-nous au 19 Place Marguerite Perret, 91 120 Palaiseau'
         }
     },
     events: {
@@ -83,49 +85,51 @@ export const fr = {
     },
     featuredProjects: [
         {
-            title: "Robot Autonome",
-            description: "Un robot auto-navigant utilisant des algorithmes d'IA avancés",
-            image: "/images/robot1.jpg",
+            title: "Coupe de France de Robotique",
+            description: "Un évènement majeur de la robotique réunissant écoles, passionnés et entreprises",
+            image: "/images/cup.jpg",
             details: {
-                overview: "Notre projet de robot autonome combine l'IA de pointe avec du matériel robuste pour créer une plateforme auto-navigante.",
+                overview: "La Coupe de France de Robotique est une compétition majeure où les équipes construisent des robots autonomes pour des duels techniques.",
                 features: [
-                    "Détection et évitement d'obstacles en temps réel",
-                    "Planification de trajectoire basée sur l'apprentissage automatique",
-                    "Vision par ordinateur pour la cartographie de l'environnement",
-                    "Conception modulaire pour des mises à niveau faciles"
+                    "Construction d'un robot autonome",
+                    "Compétition nationale inter-écoles",
+                    "Règles changeantes chaque année",
+                    "Reprise de la participation de Telecom Robotics en 2023 après une pose de plusieurs années"
                 ],
-                status: "En Développement",
-                team: "Dirigé par l'équipe IA Robotique"
+                status: "Projet phare",
+                team: "Équipe principale"
             }
         },
         {
-            title: "Projet de Drone",
-            description: "Drone personnalisé pour la surveillance aérienne et la cartographie",
-            image: "/images/drone.jpg",
+            title: "ARDUI101",
+            description: "Formation d'initiation à l'électronique pour les premières années",
+            image: "/images/ardui101_2.jpg",
             details: {
-                overview: "Notre projet de drone personnalisé est conçu pour des missions de surveillance aérienne et de cartographie.",
+                overview: "Un événement de rentrée dédié aux étudiants de première année pour découvrir l'électronique et la programmation Arduino",
                 features: [
-                    "Capacité de vol haute altitude",
-                    "Vision par ordinateur pour la cartographie de l'environnement",
-                    "Conception modulaire pour des mises à niveau faciles"
+                    "Apprentissage de la soudure",
+                    "Initiation à Arduino",
+                    "Création d'un projet personnel",
+                    "Accompagnement personnalisé"
                 ],
-                status: "En Développement",
-                team: "Dirigé par l'équipe IA Robotique"
+                status: "Événement annuel",
+                team: "Équipe formation"
             }
         },
         {
-            title: "Bras Robotique",
-            description: "Bras robotique de précision pour applications industrielles",
-            image: "/images/arm.jpg",
+            title: "Repair Café",
+            description: "Atelier de réparation collaborative ouvert à tous les étudiants",
+            image: "/images/repair.jpg",
             details: {
-                overview: "Notre bras robotique de précision est conçu pour des applications industrielles.",
+                overview: "Un espace où les étudiants peuvent venir réparer leurs objets avec l'aide de membres expérimentés",
                 features: [
-                    "Précision de positionnement millimétrique",
-                    "Charge utile de 10 kg",
-                    "Manipulation de pièces complexes"
+                    "Réparation d'appareils électroniques",
+                    "Partage de connaissances",
+                    "Lutte contre l'obsolescence",
+                    "Entraide communautaire"
                 ],
-                status: "En Développement",
-                team: "Dirigé par l'équipe Robotique"
+                status: "Événements réguliers",
+                team: "Équipe événements"
             }
         }
     ],
