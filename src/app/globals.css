@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+    --primary: 222 84% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 13% 96%;
+    --secondary-foreground: 215 28% 17%;
+    --accent: 217 91% 68%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 220 13% 96%;
+    --muted-foreground: 220 9% 46%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+    --border: 0 0% 9% / 0.1;
+    --input: 0 0% 9% / 0.1;
+    --ring: 0 0% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 0%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  :root[data-theme="dark"] {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 6% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --accent: 201 97% 39%;
+    --accent-foreground: 0 0% 0%;
+    --muted: 240 6% 10%;
+    --muted-foreground: 240 5% 65%;
+    --card: 240 10% 12%;
+    --card-foreground: 0 0% 98%;
+    --border: 0 0% 98% / 0.1;
+    --input: 0 0% 98% / 0.1;
+    --ring: 0 0% 83.1%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 0 0% 98%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+
+  :root[data-theme="telecom"] {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --primary: 352 80% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217 100% 18%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 352 80% 39%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 7%;
+    --muted-foreground: 240 5% 65%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 100%;
+    --border: 0 0% 100% / 0.1;
+    --input: 0 0% 100% / 0.1;
+    --ring: 0 0% 100%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --destructive: 352 80% 45.9%;
+    --destructive-foreground: 0 0% 98%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
