@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import LocaleSwitcher from '../LocaleSwitcher'
-import { useParams } from 'next/navigation'
 import { getDictionary } from '@/dictionaries'
 import ThemeSwitcher from '../ThemeSwitcher';
 
