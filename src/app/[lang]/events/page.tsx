@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { getDictionary } from "@/dictionaries";
 import Image from "next/image";
 
