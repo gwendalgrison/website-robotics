@@ -58,9 +58,6 @@ export default async function Events({
                     <p className="text-secondary-foreground mb-4">
                       {event.description}
                     </p>
-                    <Button>{dict.events.registerButton}</Button>
-                    {/* <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
-                                        </button> */}
                   </div>
                 </div>
               </div>
